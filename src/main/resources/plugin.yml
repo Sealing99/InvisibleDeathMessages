@@ -1,0 +1,9 @@
+name: InvisibleDeathMessages
+description: $description
+version: '${version}'
+
+main: net.sealing99.invisdeath.InvisDeath
+api-version: '26.1.2'
+load: STARTUP
+
+authors: [ Sealing99 ]
