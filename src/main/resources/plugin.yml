@@ -3,7 +3,7 @@ description: $description
 version: '${version}'
 
 main: net.sealing99.invisdeath.InvisDeath
-api-version: '26.1.2'
+api-version: '1.20'
 load: STARTUP
 
 authors: [ Sealing99 ]
