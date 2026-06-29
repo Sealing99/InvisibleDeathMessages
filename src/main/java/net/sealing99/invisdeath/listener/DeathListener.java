@@ -27,8 +27,11 @@ public class DeathListener implements Listener {
         if (message != null) {
             message = message.replaceText(builder -> builder
                     .matchLiteral(killer.getName())
-                    .replacement(Component.text("aaaaaaaa")
-                            .decorate(TextDecoration.OBFUSCATED)));
+                    .replacement("")
+            );
+
+            message = message.append(Component.text("aaaaaaaa")
+                    .decorate(TextDecoration.OBFUSCATED));
 
             event.deathMessage(message);
         }
